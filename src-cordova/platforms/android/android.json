@@ -1,0 +1,47 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {
+      "res/xml/config.xml": {
+        "parents": {
+          "/*": [
+            {
+              "xml": "<feature name=\"Whitelist\"><param name=\"android-package\" value=\"org.apache.cordova.whitelist.WhitelistPlugin\" /><param name=\"onload\" value=\"true\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"ApplePayGooglePay\"><param name=\"android-package\" value=\"com.plugin.googlepay.ApplePayGooglePay\" /></feature>",
+              "count": 1
+            }
+          ]
+        }
+      }
+    }
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.vue.example.app"
+    },
+    "cordova-plugin-apple-pay-google-pay": {
+      "PACKAGE_NAME": "com.vue.example.app"
+    }
+  },
+  "dependent_plugins": {},
+  "modules": [
+    {
+      "id": "cordova-plugin-apple-pay-google-pay.ApplePayGooglePay",
+      "file": "plugins/cordova-plugin-apple-pay-google-pay/www/ApplePayGooglePay.js",
+      "pluginId": "cordova-plugin-apple-pay-google-pay",
+      "clobbers": [
+        "cordova.plugins.ApplePayGooglePay"
+      ]
+    }
+  ],
+  "plugin_metadata": {
+    "cordova-plugin-whitelist": "1.3.5",
+    "cordova-plugin-apple-pay-google-pay": "1.0.0"
+  }
+}

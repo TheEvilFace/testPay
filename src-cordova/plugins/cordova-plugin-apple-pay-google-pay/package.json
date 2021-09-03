@@ -1,0 +1,54 @@
+{
+  "_from": "cordova-plugin-apple-pay-google-pay",
+  "_id": "cordova-plugin-apple-pay-google-pay@1.1.2",
+  "_inBundle": false,
+  "_integrity": "sha512-U1Dtl3C3zHGGd21qchQ37ilyIp7/uDyp/zsK/6QONl+6m7LXT7vhHv9VCSS4bLTjCVgzdBIqv1jdkL+CAlI3yg==",
+  "_location": "/cordova-plugin-apple-pay-google-pay",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-apple-pay-google-pay",
+    "name": "cordova-plugin-apple-pay-google-pay",
+    "escapedName": "cordova-plugin-apple-pay-google-pay",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-apple-pay-google-pay/-/cordova-plugin-apple-pay-google-pay-1.1.2.tgz",
+  "_shasum": "29e4cc08cb41f4c436d3e390566c5d57d2de82c5",
+  "_spec": "cordova-plugin-apple-pay-google-pay",
+  "_where": "C:\\Users\\gmsgs\\Desktop\\new\\src-cordova",
+  "author": {
+    "name": "Oleksii Ratnykov"
+  },
+  "bugs": {
+    "url": "https://github.com/mahoho/cordova-apple-pay-google-pay/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-apple-pay-google-pay",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "deprecated": false,
+  "description": "Cordova plugin for integrating Apple Pay and Google Pay in modern cordova apps",
+  "homepage": "https://github.com/mahoho/cordova-apple-pay-google-pay#readme",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios",
+    "applepay",
+    "googlepay",
+    "apple pay",
+    "google pay"
+  ],
+  "license": "ISC",
+  "name": "cordova-plugin-apple-pay-google-pay",
+  "version": "1.1.2"
+}
